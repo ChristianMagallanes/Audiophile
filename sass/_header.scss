@@ -1,0 +1,74 @@
+.header{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr ;
+    height: 886px; 
+    background-color: #0E0E0E;
+    background-image: url(../assets/home/desktop/image-hero.jpg);    
+    background-size: 90%;
+    background-position-x:right ;
+    background-position-y:top ;
+    .new-product-container{
+        grid-column: 1/1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 200px;
+        width: 398px;
+        height: 346px;
+        flex-shrink: 0;
+        color: #FFF;
+        .new-product-tittle{
+            padding-bottom: 20px;
+            font-size: 14px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            opacity: 0.4964;
+            
+        }
+        .new-product-name{
+            padding-bottom: 20px;
+            font-size: 56px;
+            font-family: 'Manrope', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 58px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .new-product-p{
+            width: 37  9px;
+            height: 75px;
+            padding-bottom: 20px;
+            font-family: "Manrope";
+            font-style: normal;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 25px;
+            opacity: 0.75;
+        }
+        .new-product-btn{
+            cursor: pointer;
+            background: #D87D4A;
+            width: 160px;
+            height: 48px;
+            flex-shrink: 0;
+            border: hidden;
+            color: #FFF;
+            font-family: "Manrope";
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            &:hover{
+                background-color: #FBAF85;
+            }
+        }
+    }
+}

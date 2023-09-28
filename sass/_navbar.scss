@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Para separar el logo de los botones */
+    align-items: center;
+    width: 1110px;
+    height: 80px;
+    border-bottom: solid #fff 1px;
+    margin: 0 auto; /* Centrar horizontalmente el navbar si es necesario */
+  }
+  
+  .logo-container {
+    flex-shrink: 0; /* Evitar que el logo se reduzca */
+  }
+  
+  .btn-container {
+    display: flex;
+    gap: 34px;
+  }
+  
+  .nav-btn {
+    cursor: pointer;
+    background: none;
+    border: hidden;
+    color: #FFF;
+    font-family: "Manrope";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &:hover{
+      color: #D87D4A;
+    }
+  }
+  
